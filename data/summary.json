@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-27T14:29:04+00:00",
+  "generated_at": "2026-10-27T14:29:20+00:00",
   "counts": {
-    "profiles": 4799,
+    "profiles": 5999,
     "details": 0,
-    "pending": 4799,
-    "photos": 4657
+    "pending": 5999,
+    "photos": 5815
   },
   "last_listing_scan": {
     "status": "running",
-    "next_offset": 4800,
+    "next_offset": 6000,
     "total": 27397,
     "finished_at": null
   },
