@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+# Raw/working SQLite never enters Git; compressed verified snapshot does.
+data/*.sqlite3
+data/*.sqlite3-*
+data/*.sqlite3.partial
+data/.snapshot.sqlite3
+# Downloaded pictures intentionally stay on the local workstation.
+photos/
+*.part
+*.tmp
+# Temporary output during photo downloader script regeneration
+download_photos.sh.tmp

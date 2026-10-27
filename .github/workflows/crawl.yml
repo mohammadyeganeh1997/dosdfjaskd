@@ -1,0 +1,77 @@
+name: ICBAR - Incremental Archive
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_details:
+        description: 'Detail records this run (0 = all pending)'
+        required: false
+        default: '0'
+        type: string
+      workers:
+        description: 'Parallel API fetch workers (1-16)'
+        required: false
+        default: '6'
+        type: string
+      max_rps:
+        description: 'Global requests per second (start with 4)'
+        required: false
+        default: '4'
+        type: string
+      refresh_days:
+        description: 'Refresh records older than N days (0 = new/changed only)'
+        required: false
+        default: '0'
+        type: string
+  schedule:
+    - cron: '25 3 1 * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: icbar-archive-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - name: Checkout target branch with writable credentials
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install requirements
+        run: python -m pip install -r requirements.txt
+
+      - name: Incremental crawl + committed resumable checkpoints
+        env:
+          PAGE_SIZE: '100'
+          WORKERS: ${{ inputs.workers || '6' }}
+          MAX_RPS: ${{ inputs.max_rps || '4' }}
+          REFRESH_DAYS: ${{ inputs.refresh_days || '0' }}
+          PYTHONUNBUFFERED: '1'
+          # The runner has a 6-hour hard max. Stop earlier to checkpoint safely.
+        run: |
+          python crawler.py sync \
+            --max-details "${{ inputs.max_details || '0' }}" \
+            --run-seconds 19200 \
+            --checkpoint-records 1200 \
+            --checkpoint-seconds 420 \
+            --git-checkpoint
+
+      - name: Show checkpoint summary
+        if: always()
+        run: |
+          if [ -f data/summary.json ]; then cat data/summary.json; fi
+          echo "Checkout the branch to find data/icbar.sqlite3.gz and download_photos.sh"
