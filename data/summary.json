@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-01T10:53:33+00:00",
+  "generated_at": "2026-11-01T10:54:52+00:00",
   "counts": {
-    "profiles": 27498,
-    "details": 27395,
-    "pending": 156,
-    "photos": 26688
+    "profiles": 27502,
+    "details": 27495,
+    "pending": 61,
+    "photos": 26692
   },
   "last_listing_scan": {
-    "status": "running",
-    "next_offset": 26400,
+    "status": "completed",
+    "next_offset": 27500,
     "total": 27500,
-    "finished_at": null
+    "finished_at": "2026-11-01T10:54:23+00:00"
   },
   "db_archive": "data/icbar.sqlite3.gz",
   "photo_downloader": "download_photos.sh",
