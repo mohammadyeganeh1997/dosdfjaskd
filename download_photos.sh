@@ -9973,6 +9973,7 @@ cat <<'__ICBAR_PHOTO_MANIFEST_9E7C62A1__'
 27723	https://icbar.ir/media/library/2026/09/b4d9eac8-2530-4376-a95d-0e7fd5da437b.jpg	photos/27723/2c0fad317a426eee115bee67.jpg
 27724	https://icbar.ir/media/library/2026/09/129ce5d6-4c2e-494e-979c-ac5ff14f9de0.jpg	photos/27724/f19c6e8ced7bfe59e73ee2a6.jpg
 27726	https://icbar.ir/media/library/2026/09/7259bea9-23b0-4967-a0e3-26865ce4991a.jpg	photos/27726/7c7eacb4ffd4a980c513cf16.jpg
+27727	https://icbar.ir/media/library/2026/10/9cab8268-3756-452a-b797-48c386e0181a.png	photos/27727/e825ec1551af94afe7529fa8.png
 27728	https://icbar.ir/media/library/2026/09/7152d042-601f-4f9e-a944-a4aa4d3c814e.jpg	photos/27728/4f54694a727550c4be3ab972.jpg
 27729	https://icbar.ir/media/library/2026/09/e4164a5d-fe48-48d9-9e53-7b08f164ea15.jpg	photos/27729/024f0bb5523e3fdfb019169b.jpg
 27730	https://icbar.ir/media/library/2026/09/d5e7a3f4-da63-4552-a2ec-cebaff5f3bde.jpg	photos/27730/ecc49b44e82100b829a04123.jpg
@@ -24641,6 +24642,7 @@ cat <<'__ICBAR_PHOTO_MANIFEST_9E7C62A1__'
 45297	https://icbar.ir/media/library/2026/09/01297c42-a5bb-4041-b5ae-6b66535cb83a.jpg	photos/45297/71c7d251aed785656a3c2e78.jpg
 45298	https://icbar.ir/media/library/2026/09/44ab0c40-4d6b-46c6-b0d3-568290a95067.jpg	photos/45298/414670393287d10e2ac55b89.jpg
 45299	https://icbar.ir/media/library/2026/09/05d3a597-5993-4236-9cdb-ceffb1774988.jpg	photos/45299/c93be537358950bced35fc8a.jpg
+45300	https://icbar.ir/media/library/2026/11/cbbb75a6-39b4-4573-80a9-6ae5db2ea192.jpg	photos/45300/8c2b1c551e6c2e06f52f6555.jpg
 45300	https://icbar.ir/media/library/2026/09/ab19e0a4-519c-461a-bd1b-9c57b33a3ec7.jpg	photos/45300/c3808a462f1bb48dd7e6a3ed.jpg
 45301	https://icbar.ir/media/library/2026/09/c941f934-9036-4887-9e7c-07fb5dea65e1.jpg	photos/45301/4edb60bd67c7c3064599f101.jpg
 45302	https://icbar.ir/media/library/2026/09/71b2d335-c29e-4644-b927-07d576ddf17c.jpg	photos/45302/61f329b7da15cc197c458e93.jpg
@@ -24791,6 +24793,7 @@ cat <<'__ICBAR_PHOTO_MANIFEST_9E7C62A1__'
 45452	https://icbar.ir/media/library/2026/09/f9eaff5d-40b3-4589-92e6-dac2c188a938.jpg	photos/45452/c463259531c113f67f0f89e7.jpg
 45454	https://icbar.ir/media/library/2026/09/67fd22e9-77cf-4b66-9252-2eabd86bc1d2.jpg	photos/45454/cbfb81e240687b1632e90d2c.jpg
 45457	https://icbar.ir/media/library/2026/09/a8b8cb7e-da30-43e8-82fb-924410733f72.jpg	photos/45457/41f9bd44d7896503137f2ef3.jpg
+45458	https://icbar.ir/media/library/2026/09/11827606-6ec1-45f7-ae3e-1c6cec663e1e.jpg	photos/45458/066bd01fde0df7211f1d1644.jpg
 45459	https://icbar.ir/media/library/2026/09/096fbe9a-18e5-4cef-9d8d-d2d52e8ff5cc.jpg	photos/45459/be2c870a59fa127a2ed4cae4.jpg
 45461	https://icbar.ir/media/library/2026/09/654c21db-5387-4347-970d-ad874aa23f76.jpg	photos/45461/80a56a2e719a01c9cd00aa98.jpg
 45462	https://icbar.ir/media/library/2026/09/19da6754-01c2-4e86-9f3b-e04ab3da71d1.jpg	photos/45462/6b6bc5376133e39d148bf756.jpg
@@ -24822,6 +24825,7 @@ cat <<'__ICBAR_PHOTO_MANIFEST_9E7C62A1__'
 45510	https://icbar.ir/media/library/2026/10/aba29b55-790d-40be-a4d6-b78bdf5cee30.jpg	photos/45510/92225de9bc33314a0d3eacb3.jpg
 45512	https://icbar.ir/media/library/2026/10/077df4c3-c3a3-41c6-a45d-2e5d51b068d4.jpg	photos/45512/4a10bd21e07fcc5bc15ed207.jpg
 45513	https://icbar.ir/media/library/2026/10/c97651fe-1089-4f0b-9fcc-3dae595976ce.jpg	photos/45513/190966d36db2047db7394a35.jpg
+45517	https://icbar.ir/media/library/2026/10/8b0b5ab5-0e5e-48da-9f5d-8579a31e8a29.jpg	photos/45517/92faf753443523fde8ef5329.jpg
 45518	https://icbar.ir/media/library/2026/10/59df978b-ae15-4e54-bbc3-dc91878805f8.jpg	photos/45518/4b19b6e9ccbc9c2a7336bd50.jpg
 45519	https://icbar.ir/media/library/2026/10/99611c95-ae79-4ba9-a8a8-28592a9f24a3.jpg	photos/45519/3484999b5107c3f76b0c6276.jpg
 45520	https://icbar.ir/media/library/2026/10/981fb756-0644-4a33-929d-a8dc368af431.jpg	photos/45520/bb870ad620d897396eab9a4f.jpg
@@ -24831,12 +24835,15 @@ cat <<'__ICBAR_PHOTO_MANIFEST_9E7C62A1__'
 45530	https://icbar.ir/media/library/2026/10/e1633c6c-048f-45aa-86cd-011680d16097.jpg	photos/45530/a57a4b290a2621a3d990d5b6.jpg
 45531	https://icbar.ir/media/library/2026/10/511fa744-2fa4-40ca-b9c0-0eddac398fc7.jpg	photos/45531/1e40cad939fe2c70b2be3e18.jpg
 45532	https://icbar.ir/media/library/2026/10/b55d7952-ce41-411c-8ed2-44398e19a914.jpg	photos/45532/5ab87f7efe133e51811ac903.jpg
+45533	https://icbar.ir/media/library/2026/10/9e9fac38-e996-4418-82a2-f53fd7b15f5e.jpg	photos/45533/8a2da9d96e5a259e3e4f3b7d.jpg
 45535	https://icbar.ir/media/library/2026/10/541b74d0-3abd-41a2-8a59-8514a33e1666.jpg	photos/45535/0e26d74a605e2fb96bfca38c.jpg
+45538	https://icbar.ir/media/library/2026/10/3c546dd0-b065-4f14-b8bb-5b37b8d07410.jpg	photos/45538/8eb63b6d0da35ed87096bfd3.jpg
 45540	https://icbar.ir/media/library/2026/10/3ed3b833-d01c-4e6d-8293-7d1552eee0c8.jpg	photos/45540/81ed5984752fe2502b448295.jpg
 45541	https://icbar.ir/media/library/2026/10/11fdac61-f86c-49b4-8496-3a8c46a29f28.jpg	photos/45541/f85bab50604d879365041e97.jpg
 45543	https://icbar.ir/media/library/2026/10/e8e8d240-2be9-44ac-a10c-7b87e353fa81.jpg	photos/45543/77766f4b72ab10f07d861c99.jpg
 45544	https://icbar.ir/media/library/2026/10/bfe8a346-81ab-4b1f-a5f7-6b98891d67e9.jpg	photos/45544/f757ac7d1a82f6e55008f19f.jpg
 45545	https://icbar.ir/media/library/2026/10/b851b8a7-fedf-40d2-b8a3-895cbc02fdd7.jpg	photos/45545/c674d6a192b9e93652530816.jpg
+45548	https://icbar.ir/media/library/2026/10/e8920eb8-b120-4d0b-9a55-70e0d6b893bc.jpg	photos/45548/3e6d2fa9ab16d548c946f7ac.jpg
 4555	https://icbar.ir/media/library/2026/09/2464d0db-2dfd-4db5-ad23-4360be1abec2.jpg	photos/4555/090c33cce2b9719995d483a8.jpg
 45550	https://icbar.ir/media/library/2026/10/ae4a70bd-4cff-48b4-9745-6670045d9a86.jpg	photos/45550/a8a0982be5380ea3bfcc12c6.jpg
 4558	https://icbar.ir/media/library/2026/09/8bd2cf88-6f31-41cb-a92d-d96e556f44f8.jpg	photos/4558/b9d168395a59599864b45c86.jpg
